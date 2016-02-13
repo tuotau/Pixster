@@ -1,0 +1,222 @@
+/* Smaller Screens */
+@media screen and (max-width: 800px) {
+	body #nav_bar li {
+		text-align: center;
+		display: block;
+	}
+	body #nav_bar {
+		position: static;
+	}
+	body .abs_right{
+		position: static;
+	}
+}
+
+/* General */
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.float_right{
+	float: right;
+}
+
+.float_left{
+	float: left;
+}
+
+.center_child{
+	text-align: center;
+}
+
+/*Content */
+#container{
+	margin: 75px 10% 0 10%;
+}
+
+
+#container img{
+	padding: 10px;
+}
+
+/* Content - Login / Signup */
+
+#login_container{
+	margin-top: 15%;
+	display: inline-block;
+	background-color: #538BE6;
+	padding: 20px 20px 20px 10px;
+}
+#login_container h1, #login_container h2{
+	float: left;
+	margin: 5px;
+}
+
+#login_container a{
+	float: right;
+}
+
+.err{
+	color: red;
+}
+
+/* Content - Login */
+#login_form input{
+	margin: 5px 60px 5px 5px;
+	height: 2em;
+}
+#login_form input[type = submit]{
+	width: 100px;
+}
+
+/* Content - Signup*/
+
+#signup_form input{
+	margin: 5px 60px 5px 5px;
+	height: 2em;
+}
+
+#signup_form{
+	padding-left: 10px;
+	text-align: left;
+}
+
+#signup_form input[type = submit]{
+	width: 100px;
+	margin-left: 40px;
+}
+
+#signup_form #password_div input{
+	margin: 5px;
+	float: left;
+}
+#signup_form #password_div {
+	width: 350px;
+}
+
+/* Content - Success*/
+
+#success{
+	margin-top: 15%;
+	display: inline-block;
+	background-color: #538BE6;
+	padding: 20px 20px 20px 10px;
+}
+
+/* Content - Upload*/
+
+#upload_form input{
+	margin: 5px 60px 5px 5px;
+	height: 2em;
+}
+
+#upload_form{
+	padding-left: 10px;
+	text-align: left;
+}
+
+#upload_form div+div{
+	background-color: lightgrey;
+}
+
+/* Content - Image*/
+#grey{
+	background-color: lightgrey;
+	display: inline-block;
+	margin-bottom: 20px;
+	padding: 3px;
+}
+#image_box div{
+	display: inline-block;
+	vertical-align:middle;
+}
+#image{
+	margin-left: 66px;
+}
+#vote_box{
+	margin-left: 10px;
+	text-align: center;
+	padding: 5px;
+}
+#vote_box input{
+	margin-top: 5px;
+	padding: 5px 10px;
+	width:20px;
+	text-align: center;
+}
+#container #image_box img{
+	padding: 0;
+}
+#comments{
+	margin-top: 50px;
+}
+#comments h3{
+	display: inline-block;
+	margin: 0 0.2em 1em 0;
+}
+#comments small{
+	margin: 0 -50px 0 50px;
+}
+.delete_comment{
+	float: right;
+	margin: 2px 30px 2px 2px;
+}
+#admin_box{
+	margin: 0 -56px 0 0;
+}
+
+/*Content - admin_users*/
+#user_table {
+	display: inline-block;
+    border-collapse: collapse;
+}
+#user_table td{
+	border: 1px solid black;
+	padding: 5px;
+}
+
+
+/* Nav */
+
+
+#nav_bar {
+	position: fixed;
+	top: 0;
+	background-color: #538BE6;
+	width: 100%;
+}
+#nav_bar ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	white-space: nowrap;
+}
+
+#nav_bar li {
+	text-align: center;
+	display: inline-block;
+}
+
+#nav_bar a {
+	padding: 10px;
+	width: 200px;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+}
+
+.abs_right{
+	position: fixed;
+	right: 0;
+}
+
+#push_right{
+	margin-right: 200px;
+}
